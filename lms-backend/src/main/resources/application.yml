@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: lms-backend
+  datasource:
+    url: jdbc:h2:mem:lmsdb
+    driverClassName: org.h2.Driver
+    username: abhi
+    password: h2-db
+  h2:
+    console.enabled: true
+  jpa:
+    defer-datasource-initialization: true
+server:
+  port: 8085
+
+
